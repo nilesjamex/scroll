@@ -1,4 +1,4 @@
-@import '../util';
+@import "../util";
 
 #hero {
   width: 100%;
@@ -20,7 +20,7 @@
         .word:first-child {
           height: 1em;
           &::first-letter {
-            font-size: 6.85500em;
+            font-size: 6.855em;
           }
         }
       }
@@ -31,6 +31,7 @@
     aspect-ratio: 1 / 1;
     margin: 17rem auto;
     overflow: hidden;
+    object-fit: cover;
     &-content {
       width: 100%;
       display: flex;
@@ -39,6 +40,7 @@
         width: 100%;
         aspect-ratio: 1 / 1;
         will-change: transform;
+        object-fit: cover;
       }
     }
   }
@@ -52,7 +54,8 @@
     small {
       font-size: 12rem;
     }
-    h1, h2 {
+    h1,
+    h2 {
       text-transform: uppercase;
       letter-spacing: -0.05em;
       margin: 0;
@@ -63,13 +66,13 @@
       font-weight: normal;
     }
     h2 {
-      font-family: 'Encode Sans';
+      font-family: "Encode Sans";
       font-size: 74.6rem;
       font-weight: 800;
       font-style: normal;
       font-stretch: 125%;
     }
-    
+
     p {
       max-width: 508rem;
       letter-spacing: 0;
