@@ -11,8 +11,8 @@
   box-sizing: border-box;
 }
 html {
-  background: #3236af;
-  color: $white;
+  background: $white;
+  color: $text;
   font-size: calc((1 / 1440) * 100vw);
   overflow: hidden;
   @media (max-width: 1024px) {
